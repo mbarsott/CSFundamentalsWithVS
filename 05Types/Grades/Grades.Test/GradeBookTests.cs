@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Grades;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Grades.Test
 {
@@ -18,8 +19,6 @@ namespace Grades.Test
         [TestMethod]
         public void ComputeLowestGrade()
         {
-
-
             GradeBook book = new GradeBook();
             book.AddGrade(10);
             book.AddGrade(90);
